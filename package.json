@@ -1,0 +1,24 @@
+{
+  "name": "@armonia/tailwind-extra",
+  "version": "0.1.0",
+  "description": "",
+  "repository": "https://github.com/armoniacore/tailwind-extra",
+  "license": "MIT",
+  "main": "src/index.js",
+  "prettier": {
+    "printWidth": 120,
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "scripts": {
+    "build": "rimraf dist && rollup -c rollup.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "tailwindcss": ">=3.0.0 || insiders"
+  },
+  "dependencies": {
+    "mini-svg-data-uri": "^1.4.4"
+  }
+}
