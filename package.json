@@ -1,10 +1,11 @@
 {
   "name": "@armonia/tailwind-extra",
-  "version": "0.1.0",
-  "description": "",
+  "version": "0.1.1",
+  "description": "A set of extra stuff for tailwind",
   "repository": "https://github.com/armoniacore/tailwind-extra",
   "license": "MIT",
   "main": "src/index.js",
+  "types": "typings.d.ts",
   "prettier": {
     "printWidth": 120,
     "semi": false,
